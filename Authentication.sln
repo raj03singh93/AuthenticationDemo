@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthentication", "Authentication\JWTAuthentication.csproj", "{B93694FF-C9E3-4AA4-BA07-46E04B9602E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{1F6056FD-E86C-462A-BAA3-56BAAAAC31CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JWT", "JWT", "{660C053C-7FA1-49AB-8810-866624BCC4BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAuthentication", "BasicAuthentication\BasicAuthentication.csproj", "{1703EA2E-5162-49EF-9CD5-B6C90172BA15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{468721E2-2857-4106-921B-1930E6D7C00E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EAA93064-2646-40B0-8AC3-6B2FB9E2021E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuthentication", "CookieAuthentication\CookieAuthentication.csproj", "{67C256AA-4DC8-4654-BBCC-E7C912FC322B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93694FF-C9E3-4AA4-BA07-46E04B9602E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93694FF-C9E3-4AA4-BA07-46E04B9602E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93694FF-C9E3-4AA4-BA07-46E04B9602E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93694FF-C9E3-4AA4-BA07-46E04B9602E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1703EA2E-5162-49EF-9CD5-B6C90172BA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1703EA2E-5162-49EF-9CD5-B6C90172BA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1703EA2E-5162-49EF-9CD5-B6C90172BA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1703EA2E-5162-49EF-9CD5-B6C90172BA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C256AA-4DC8-4654-BBCC-E7C912FC322B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C256AA-4DC8-4654-BBCC-E7C912FC322B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C256AA-4DC8-4654-BBCC-E7C912FC322B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C256AA-4DC8-4654-BBCC-E7C912FC322B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B93694FF-C9E3-4AA4-BA07-46E04B9602E3} = {660C053C-7FA1-49AB-8810-866624BCC4BF}
+		{1F6056FD-E86C-462A-BAA3-56BAAAAC31CF} = {468721E2-2857-4106-921B-1930E6D7C00E}
+		{660C053C-7FA1-49AB-8810-866624BCC4BF} = {468721E2-2857-4106-921B-1930E6D7C00E}
+		{1703EA2E-5162-49EF-9CD5-B6C90172BA15} = {1F6056FD-E86C-462A-BAA3-56BAAAAC31CF}
+		{67C256AA-4DC8-4654-BBCC-E7C912FC322B} = {EAA93064-2646-40B0-8AC3-6B2FB9E2021E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2AB9160-EE47-4E1D-9FBD-EF5E5B5148C7}
+	EndGlobalSection
+EndGlobal
